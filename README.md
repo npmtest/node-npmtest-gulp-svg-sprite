@@ -1,7 +1,7 @@
 # test coverage for  [gulp-svg-sprite (v1.3.6)](https://github.com/jkphl/gulp-svg-sprite)  [![npm package](https://img.shields.io/npm/v/npmtest-gulp-svg-sprite.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-gulp-svg-sprite) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-gulp-svg-sprite.svg)](https://travis-ci.org/npmtest/node-npmtest-gulp-svg-sprite)
 #### SVG sprites & stacks galore — Gulp plugin wrapping around svg-sprite that reads in a bunch of SVG files, optimizes them and creates SVG sprites and CSS resources in various flavours
 
-[![NPM](https://nodei.co/npm/gulp-svg-sprite.png?downloads=true)](https://www.npmjs.com/package/gulp-svg-sprite)
+[![NPM](https://nodei.co/npm/gulp-svg-sprite.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/gulp-svg-sprite)
 
 | git-branch : | [alpha](https://github.com/npmtest/node-npmtest-gulp-svg-sprite/tree/alpha)|
 |--:|:--|
@@ -9,11 +9,17 @@
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-gulp-svg-sprite/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-gulp-svg-sprite/build/test-report.html)|
 | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-gulp-svg-sprite/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-gulp-svg-sprite/tree/gh-pages/build)|
 
-[![istanbul-coverage](https://npmtest.github.io/node-npmtest-gulp-svg-sprite/build/screenCapture.buildCustomOrg.browser.coverage.html.png)](https://npmtest.github.io/node-npmtest-gulp-svg-sprite/build/coverage.html/index.html)
+- [https://npmtest.github.io/node-npmtest-gulp-svg-sprite/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-gulp-svg-sprite/build/coverage.html/index.html)
 
-[![test-report](https://npmtest.github.io/node-npmtest-gulp-svg-sprite/build/screenCapture.buildCustomOrg.browser.%252Fhome%252Ftravis%252Fbuild%252Fnpmtest%252Fnode-npmtest-gulp-svg-sprite%252Ftmp%252Fbuild%252Ftest-report.html.png)](https://npmtest.github.io/node-npmtest-gulp-svg-sprite/build/test-report.html)
+[![istanbul-coverage](https://npmtest.github.io/node-npmtest-gulp-svg-sprite/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fcoverage.lib.html.png)](https://npmtest.github.io/node-npmtest-gulp-svg-sprite/build/coverage.html/index.html)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-gulp-svg-sprite/build/screenCapture.buildApidoc.browser.%252Fhome%252Ftravis%252Fbuild%252Fnpmdoc%252Fnode-npmdoc-gulp-svg-sprite%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-gulp-svg-sprite/build/apidoc.html)
+- [https://npmtest.github.io/node-npmtest-gulp-svg-sprite/build/test-report.html](https://npmtest.github.io/node-npmtest-gulp-svg-sprite/build/test-report.html)
+
+[![test-report](https://npmtest.github.io/node-npmtest-gulp-svg-sprite/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Ftest-report.html.png)](https://npmtest.github.io/node-npmtest-gulp-svg-sprite/build/test-report.html)
+
+- [https://npmdoc.github.io/node-npmdoc-gulp-svg-sprite/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-gulp-svg-sprite/build/apidoc.html)
+
+[![apidoc](https://npmdoc.github.io/node-npmdoc-gulp-svg-sprite/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-gulp-svg-sprite/build/apidoc.html)
 
 ![npmPackageListing](https://npmtest.github.io/node-npmtest-gulp-svg-sprite/build/screenCapture.npmPackageListing.svg)
 
@@ -28,7 +34,6 @@
 {
     "author": {
         "name": "Joschi Kuphal",
-        "email": "joschi@kuphal.net",
         "url": "https://jkphl.is"
     },
     "bugs": {
@@ -97,13 +102,11 @@
     "license": "MIT",
     "maintainers": [
         {
-            "name": "jkphl",
-            "email": "joschi@kuphal.net"
+            "name": "jkphl"
         }
     ],
     "name": "gulp-svg-sprite",
     "optionalDependencies": {},
-    "readme": "ERROR: No README data found!",
     "repository": {
         "type": "git",
         "url": "git+https://github.com/jkphl/gulp-svg-sprite.git"
