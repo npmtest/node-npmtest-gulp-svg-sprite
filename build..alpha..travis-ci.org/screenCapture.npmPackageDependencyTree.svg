@@ -143,7 +143,7 @@
 <tspan x="10" y="2250">  │ │ │ │   ├─┬ dashdash@1.14.1 </tspan>
 <tspan x="10" y="2266">  │ │ │ │   │ └── assert-plus@1.0.0 </tspan>
 <tspan x="10" y="2282">  │ │ │ │   ├── ecc-jsbn@0.1.1 </tspan>
-<tspan x="10" y="2298">  │ │ │ │   ├─┬ getpass@0.1.6 </tspan>
+<tspan x="10" y="2298">  │ │ │ │   ├─┬ getpass@0.1.7 </tspan>
 <tspan x="10" y="2314">  │ │ │ │   │ └── assert-plus@1.0.0 </tspan>
 <tspan x="10" y="2330">  │ │ │ │   ├── jodid25519@1.0.2 </tspan>
 <tspan x="10" y="2346">  │ │ │ │   ├── jsbn@0.1.1 </tspan>
@@ -204,7 +204,7 @@
 <tspan x="10" y="3226">  │   │   │ ├── pify@2.3.0 </tspan>
 <tspan x="10" y="3242">  │   │   │ └─┬ strip-bom@2.0.0 </tspan>
 <tspan x="10" y="3258">  │   │   │   └── is-utf8@0.2.1 </tspan>
-<tspan x="10" y="3274">  │   │   ├─┬ normalize-package-data@2.3.6 </tspan>
+<tspan x="10" y="3274">  │   │   ├─┬ normalize-package-data@2.3.8 </tspan>
 <tspan x="10" y="3290">  │   │   │ ├── hosted-git-info@2.4.2 </tspan>
 <tspan x="10" y="3306">  │   │   │ ├─┬ is-builtin-module@1.0.0 </tspan>
 <tspan x="10" y="3322">  │   │   │ │ └── builtin-modules@1.1.1 </tspan>
