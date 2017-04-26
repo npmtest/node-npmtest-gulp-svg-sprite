@@ -1,4 +1,7 @@
-# test coverage for  [gulp-svg-sprite (v1.3.6)](https://github.com/jkphl/gulp-svg-sprite)  [![npm package](https://img.shields.io/npm/v/npmtest-gulp-svg-sprite.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-gulp-svg-sprite) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-gulp-svg-sprite.svg)](https://travis-ci.org/npmtest/node-npmtest-gulp-svg-sprite)
+# npmtest-gulp-svg-sprite
+
+#### basic test coverage for  [gulp-svg-sprite (v1.3.6)](https://github.com/jkphl/gulp-svg-sprite)  [![npm package](https://img.shields.io/npm/v/npmtest-gulp-svg-sprite.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-gulp-svg-sprite) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-gulp-svg-sprite.svg)](https://travis-ci.org/npmtest/node-npmtest-gulp-svg-sprite)
+
 #### SVG sprites & stacks galore — Gulp plugin wrapping around svg-sprite that reads in a bunch of SVG files, optimizes them and creates SVG sprites and CSS resources in various flavours
 
 [![NPM](https://nodei.co/npm/gulp-svg-sprite.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/gulp-svg-sprite)
@@ -7,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-gulp-svg-sprite/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-gulp-svg-sprite/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-gulp-svg-sprite/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-gulp-svg-sprite/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-gulp-svg-sprite/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-gulp-svg-sprite/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-gulp-svg-sprite/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-gulp-svg-sprite/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-gulp-svg-sprite/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-gulp-svg-sprite/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-gulp-svg-sprite/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-gulp-svg-sprite/build/coverage.html/index.html)
 
@@ -115,7 +118,8 @@
         "coveralls": "istanbul cover ./node_modules/mocha/bin/_mocha --report lcovonly -- -R spec && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js && rm -rf ./coverage",
         "test": "gulp && istanbul test _mocha --report html -- test/*.js --reporter spec"
     },
-    "version": "1.3.6"
+    "version": "1.3.6",
+    "bin": {}
 }
 ```
 
